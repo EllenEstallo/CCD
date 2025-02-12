@@ -1,0 +1,30 @@
+.fixed-button {
+  position: fixed;
+  bottom: 60px;
+  right: 34px;
+  padding: 10px 20px;
+
+  background-color: #2e778e;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+  /* transition: transform 0.3s, background-color 0.3s;  */
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);  */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fixed-button:hover {
+  background-color: #182e66;
+  color: #f9ba08;
+  /* transform: scale(1.1);  Scale the button up   */
+
+  /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+}

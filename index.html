@@ -4,34 +4,55 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>SJTL CCD</title>
-      <link rel="stylesheet" href="./CSS/nav.css"/>
+
       <link rel="stylesheet" href="./CSS/styles.css"/>
+      <link rel="stylesheet" href="./CSS/navbar.css">
+      <link rel="stylesheet" href="./CSS/dropdown.css"/>
       <link rel="stylesheet" href="./CSS/church-name-box.css"/>
-      <link rel="stylesheet" href="./CSS/overlay.css"/>
+      <link rel="stylesheet" href="./CSS/fixed-button.css"/>
       <link rel="stylesheet" href="./CSS/footer.css"/>
       <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"/>
 </head>
-
-
 <body>
-      <!-- <div class="safety-bar">
-            <span>SAFETY FIRST: read our protocols </span>
-            <a href="safety_protocols.html" class="link">here</a>
-      </div> -->
-
       <nav class="navbar">
-            <a href="index.html" class="logo">LOGO</a>
-            <ul class="nav-links">
-            <li><a href="#program">About</a></li>
-            <li><a href="#schedule">Schedule of Classes</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#translate">Translate</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            </ul>
+            <div class="text-logo">
+              <a href="index.html">Logo</a>
+              <!-- <img src="logo-placeholder.png" alt="Logo" class="logo-image" />  -->
+            </div>
+            <div class="nav-links">
+              <div class="dropdown">
+                <a href="program.html">Our Program</a>
+                <div class="dropdown-content">
+                  <a href="program.html#linda">Our Director</a>
+                  <a href="program.html#teachers">Our Catechists</a>
+                  <a href="program.html#parents">You, Our Parents</a>
+                  <a href="program.html#pedagogy">Pedagogy</a>
+                  <a href="program.html#volunteer">Volunteer!</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <a href="schedule.html">Schedule and Lessons</a>
+                <div class="dropdown-content">
+                  <a href="schedule.html">Schedule</a>
+                  <a href="schedule.html#lessons">Lessons</a>
+                  <a href="worship.html#safe">Safe Environment</a>
+                  <a href="worship.html#resources">Resources</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <a href="meetings.html">Meetings and Events</a>
+              </div>
+              <div class="dropdown">
+                <a href="register.html">Register</a>
+              </div>
+              <div class="dropdown">
+                <a href="contact.html">Contact Us</a>
+              </div>
+              <!-- <!- close  ="nav-links"> -- -->
+            </div>
       </nav>
-
       <div class="top-box">
             <div class="church-name-box">
                   <div class="text-james-less">ST. JAMES</div>
@@ -55,20 +76,15 @@
 
             <div class="photo-box">
                   <br>
-
-                  <!-- <img src="./Assets/imageedit_1_7969900029.jpg"> -->
-                   <img src="./Assets/imageedit_6_8406310746-2.gif">
+            <img src="./Assets/imageedit_6_8406310746-2.gif">
 
             </div>
       </div>
-
+      <button class="fixed-button" onclick="location.href='index.html';">Translate</button>
       <footer class="footer">
             <div class="church-address">
             Saint James The Less Church  |  36 Lincoln Ave., Jamesburg, NJ  |  732-521-1188
             </div>
       </footer>
-   
-      </body>
-      <!-- <script src="script.js"></script> -->
-
+</body>
 </html>

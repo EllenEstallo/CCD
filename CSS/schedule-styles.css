@@ -1,0 +1,254 @@
+/* styles.css */
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+  overflow-x: hidden; /* no horizontal scroll */
+  /* overflow-y: auto;  */
+  /* w/ vertical scrol*/
+  font-family: Arial, sans-serif;
+  /* background-color: #fcda7c; */
+}
+/* 1.  SCHEDULE */
+.top-box {
+  margin-top: 120px;
+  margin-left: 120px;
+  width: 1200px;
+  /* height: 500px; */
+  /* background-color: darkorange; */
+
+  display: flex;
+  flex-direction: row;
+}
+.schedule-church-name-box {
+  width: 400px;
+  /* background-color: blue; */
+}
+
+.text-james-less {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  color: #cc2d82;
+  line-height: 0.9;
+}
+.schedule-top-box {
+  padding-left: 60px;
+  width: 800px;
+  /* height: 100px; */
+  /* background-color: pink; */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #cc2d82;
+}
+.schedule-mid-box {
+  margin-left: 120px;
+
+  width: 1200px;
+  height: 380px;
+  background-color: blue;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.schedule-mid-box-text {
+  width: 600px;
+  height: 360px;
+  background-color: pink;
+
+  padding-left: 60px;
+  padding-right: 40px;
+}
+.schedule-mid-box-map {
+  width: 500px;
+  height: 360px;
+  background-color: gray;
+}
+
+.schedule-text {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  color: #182e66;
+}
+
+.address {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  color: #182e66;
+  padding-left: 80px;
+}
+.schedule-list {
+  margin-left: 50px;
+}
+
+.full-width-box {
+  margin-left: 120px;
+  width: 1200px;
+  /* height: 100px; */
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-list {
+  margin-left: 50px;
+}
+/* 2.  DIRECTOR  */
+#director {
+  padding-top: 100px;
+}
+.director-box {
+  /* height: 330px; */
+  /* background-color: palevioletred; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.director-text-box {
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 740px;
+  /* height: 300px; */
+  /* background-color: firebrick; */
+}
+.director-photo {
+  /* height: 1000px; */
+  width: 300px;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+}
+
+.director-photo img {
+  width: 80%;
+}
+
+p {
+  font-style: italic;
+  padding-top: 0;
+}
+
+/* 3.  CATECHISTS  */
+
+#catechists {
+  padding-top: 60px;
+}
+.catechists-box {
+  /* height: 330px; */
+  /* background-color: palevioletred; */
+
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.catechists-text-box {
+  padding-top: 20px;
+  padding-left: 60px;
+  /* padding-right: 60px; */
+  width: 800px;
+  height: 300px;
+  /* background-color: firebrick; */
+}
+
+.catechists-photo {
+  /* height: 1000px; */
+  width: 460px;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+}
+
+.catechists-photo img {
+  width: 100%;
+}
+
+/* 4. PARENTS  */
+
+#parents {
+  padding-top: 100px;
+}
+.parents-box1 {
+  /* height: 240px;
+  background-color: palevioletred; */
+
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.parents-text-box1 {
+  /* padding-top: 40px; */
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 800px;
+  /* height: 240px;
+  background-color: firebrick; */
+}
+
+.parents-photo1 {
+  width: 400px;
+  /* height: 240px;
+  background-color: gold; */
+}
+
+.parents-photo1 img {
+  width: 100%;
+}
+
+/* 4.  Pedagogy */
+
+#pedagogy {
+  padding-top: 100px;
+}
+.pedagogy-box {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.pedagogy-list {
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+/* 5.  Volunteer */
+
+#volunteer {
+  padding-top: 100px;
+}
+.volunteer-box {
+  display: flex;
+  flex-direction: row;
+}
+.volunteer-text-box {
+  padding-right: 100px;
+  width: 740px;
+  /* height: 240px;
+  background-color: firebrick; */
+}
+
+.indented-volunteer-text-box {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 740px;
+}
+
+.volunteer-photo {
+  width: 400px;
+  /* height: 240px;
+  background-color: gold; */
+}
+
+.volunteer-photo img {
+  width: 80%;
+}

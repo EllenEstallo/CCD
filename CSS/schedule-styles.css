@@ -51,8 +51,8 @@ body {
   margin-left: 120px;
 
   width: 1200px;
-  height: 380px;
-  background-color: blue;
+  /* height: 380px;
+  background-color: blue; */
 
   display: flex;
   flex-direction: row;
@@ -60,18 +60,24 @@ body {
 
 .schedule-mid-box-text {
   width: 600px;
-  height: 360px;
-  background-color: pink;
+  /* height: 360px;
+  background-color: pink; */
 
   padding-left: 60px;
   padding-right: 40px;
 }
-.schedule-mid-box-map {
+.schedule-mid-box-map1 {
   width: 500px;
-  height: 360px;
-  background-color: gray;
+  /* height: 360px;
+  background-color: gray; */
 }
 
+.schedule-mid-box-map2 {
+  margin-left: 140px;
+  width: 500px;
+  /* height: 360px;
+  background-color: gray; */
+}
 .schedule-text {
   font-family: "Avenir Book", sans-serif;
   font-size: 24px;
@@ -98,13 +104,91 @@ body {
   flex-direction: column;
 }
 
-.schedule-list {
-  margin-left: 50px;
-}
-/* 2.  DIRECTOR  */
-#director {
+/* 2.  LESSONS */
+#lessons {
   padding-top: 100px;
 }
+.lesson-mid-box {
+  /* margin-left: 120px; */
+  width: 1200px;
+  /* height: 480px; */
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: row;
+}
+.lesson-info-box-for-grade1 {
+  /* padding-right: 100px; */
+  width: 720px;
+  /* height: 450px; */
+  /* background-color: red; */
+}
+.lesson-photo1 {
+  padding-left: 100px;
+  width: 500px;
+  /* height: 450px; */
+  /* background-color: yellow; */
+}
+.lesson-photo1 img {
+  width: 70%;
+}
+
+.lesson-photo2 {
+  /* padding-left: 100px; */
+  /* padding-top: 60px; */
+  width: 400px;
+  /* height: 300px; */
+  /* background-color: yellow; */
+}
+
+.lesson-photo2 img {
+  width: 100%;
+}
+
+.lesson-info-box-for-grade2 {
+  /* padding-right: 100px; */
+  padding-left: 0;
+  margin-left: 0;
+
+  width: 800px;
+  /* height: 300px; */
+  /* background-color: red; */
+}
+
+.lesson-photo3 {
+  /* padding-left: 100px; */
+  /* padding-top: 60px; */
+  width: 400px;
+  /* height: 300px; */
+  /* background-color: yellow; */
+}
+
+.lesson-photo3 img {
+  width: 100%;
+}
+
+.lesson-info-box-for-grade8 {
+  /* padding-right: 100px; */
+  width: 600px;
+  /* height: 200px; */
+  /* background-color: red; */
+}
+.grade-level {
+  padding-left: 70px;
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  /* color: #182e66; */
+  color: #cc2d82;
+}
+.lesson-list {
+  padding-left: 100px;
+
+  color: #182e66;
+}
+
+/* li {
+  padding-left: 70px;
+} */
 .director-box {
   /* height: 330px; */
   /* background-color: palevioletred; */

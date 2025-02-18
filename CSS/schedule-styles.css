@@ -64,7 +64,7 @@ body {
   background-color: pink; */
 
   padding-left: 60px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 .schedule-mid-box-map1 {
   width: 500px;
@@ -186,153 +186,56 @@ body {
   color: #182e66;
 }
 
-/* li {
-  padding-left: 70px;
-} */
-.director-box {
-  /* height: 330px; */
-  /* background-color: palevioletred; */
-
-  display: flex;
-  flex-direction: row;
+/* 3.  SAFE-ENVIRONMENT */
+#safe-environment {
+  padding-top: 100px;
 }
 
-.director-text-box {
-  padding-top: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
-  width: 740px;
+.sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #cc2d82;
+}
+
+.sub-sub-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #cc2d82;
+}
+
+.lesson-info-box-for-safe-environment {
+  /* padding-right: 100px; */
+  padding-left: 80px;
+  margin-right: 120px;
+
+  width: 800px;
   /* height: 300px; */
-  /* background-color: firebrick; */
+  /* background-color: red; */
 }
-.director-photo {
-  /* height: 1000px; */
-  width: 300px;
-  /* background-color: gold; */
-  display: flex;
-  flex-direction: column;
-}
+.safe-environment-mid-box {
+  /* margin-left: 120px; */
 
-.director-photo img {
-  width: 80%;
-}
+  width: 1200px;
+  /* height: 380px;
+  background-color: blue; */
 
-p {
-  font-style: italic;
-  padding-top: 0;
-}
-
-/* 3.  CATECHISTS  */
-
-#catechists {
-  padding-top: 60px;
-}
-.catechists-box {
-  /* height: 330px; */
-  /* background-color: palevioletred; */
-
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
 }
-
-.catechists-text-box {
-  padding-top: 20px;
-  padding-left: 60px;
-  /* padding-right: 60px; */
+.safe-environment-mid-box-text {
   width: 800px;
-  height: 300px;
-  /* background-color: firebrick; */
+  margin-left: 0;
+  /* height: 360px;
+  background-color: pink; */
 }
 
-.catechists-photo {
-  /* height: 1000px; */
-  width: 460px;
-  /* background-color: gold; */
-  display: flex;
-  flex-direction: column;
+.video-box {
+  margin-left: 150px;
 }
-
-.catechists-photo img {
-  width: 100%;
-}
-
-/* 4. PARENTS  */
-
-#parents {
-  padding-top: 100px;
-}
-.parents-box1 {
-  /* height: 240px;
-  background-color: palevioletred; */
-
-  padding-top: 60px;
-  padding-bottom: 40px;
-  display: flex;
-  flex-direction: row;
-}
-
-.parents-text-box1 {
-  /* padding-top: 40px; */
-  padding-left: 60px;
-  padding-right: 60px;
-  width: 800px;
-  /* height: 240px;
-  background-color: firebrick; */
-}
-
-.parents-photo1 {
-  width: 400px;
-  /* height: 240px;
-  background-color: gold; */
-}
-
-.parents-photo1 img {
-  width: 100%;
-}
-
-/* 4.  Pedagogy */
-
-#pedagogy {
-  padding-top: 100px;
-}
-.pedagogy-box {
-  padding-top: 60px;
-  padding-left: 60px;
-}
-.pedagogy-list {
-  padding-left: 100px;
-  padding-right: 40px;
-}
-
-/* 5.  Volunteer */
-
-#volunteer {
-  padding-top: 100px;
-}
-.volunteer-box {
-  display: flex;
-  flex-direction: row;
-}
-.volunteer-text-box {
-  padding-right: 100px;
-  width: 740px;
-  /* height: 240px;
-  background-color: firebrick; */
-}
-
-.indented-volunteer-text-box {
-  padding-left: 60px;
-  padding-right: 60px;
-  width: 740px;
-}
-
-.volunteer-photo {
-  width: 400px;
-  /* height: 240px;
-  background-color: gold; */
-}
-
-.volunteer-photo img {
+iframe {
+  padding-left: 120px;
   width: 80%;
+  max-width: 600px;
+  height: 340px;
+  border: none;
 }
